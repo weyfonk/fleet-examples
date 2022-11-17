@@ -1,0 +1,5 @@
+helm:
+  chart: config-chart
+  values:
+    url: global.fleet.clusterLabels.url
+    name: global.fleet.clusterLabels.management.cattle.io/cluster-display-name
